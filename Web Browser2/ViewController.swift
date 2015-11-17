@@ -9,7 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var webAddress: UITextField!
+    
+    @IBOutlet weak var webView: UIWebView!
 
+    
+    
+    @IBAction func goPressed(sender: AnyObject) {
+    }
+    
+    @IBAction func leftPressed(sender: AnyObject) {
+    }
+    
+    @IBAction func rightPressed(sender: AnyObject) {
+    }
+    
+    @IBAction func zoomInPressed(sender: AnyObject) {
+    }
+    
+    
+    @IBAction func zoomOutPressed(sender: AnyObject) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
